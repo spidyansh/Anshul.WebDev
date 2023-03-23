@@ -262,11 +262,11 @@ section .title::after {
 .home .max-width .row {
   margin-right: 0;
 }
-.home .home-content{
+/* .home .home-content{
   position: relative;
   top: 50%;
   left: 25%;
-  }
+  } */
 
 .home .home-content .text-1 {
   font-size: 27px;
