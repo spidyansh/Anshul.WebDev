@@ -41,6 +41,13 @@ $(document).ready(function () {
     loop: true,
   });
 
+  var typed = new Typed(".abttyping", {
+    strings: ["Frontend Web Development","React JS","Javascript","HTML","CSS"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+  });
+
   // owl carousel script
   $(".carousel").owlCarousel({
     margin: 20,
