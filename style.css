@@ -443,6 +443,18 @@ section .title::after {
 .services .serv-content .card {
   color: #888;
 }
+.project-btn{
+  background-color: crimson;
+  color: white;
+  border: 2px solid crimson;
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
+
+}
+.project-btn :hover{
+background-color: white;
+color: crimson;
+}
 
 /* skills section styling */
 
