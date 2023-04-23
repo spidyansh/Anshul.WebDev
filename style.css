@@ -394,17 +394,29 @@ section .title::after {
   text-decoration: none;
 }
 .services .serv-content .card1 {
-  background-image: url("images/ss-newsviews.png");
+  background-image: url("images/ss-buyonclick.png");
   opacity: 0.8
   /* background-size: cover; */
   /* background-position: center center; */
 }
 .services .serv-content .card2 {
-  background-image: url("images/ss-dog.png");
+  background-image: url("images/ss-interiaz.png");
   opacity: 0.8;
 }
 .services .serv-content .card3 {
+  background-image: url("images/ss-news.png");
+  opacity: 0.8;
+}
+.services .serv-content .card4 {
   background-image: url("images/ss-portfolio.png");
+  opacity: 0.8;
+}
+.services .serv-content .card5 {
+  background-image: url("images/ss-dog.png");
+  opacity: 0.8;
+}
+.services .serv-content .card6 {
+  background-image: url("images/ss-ivoice.png");
   opacity: 0.8;
 }
 .services .serv-content .card:hover {
@@ -444,16 +456,19 @@ section .title::after {
   color: #888;
 }
 .project-btn{
-  background-color: crimson;
+  background-color: red;
+  border: none;
+  height: 30px;
+  width: 100px;
   color: white;
-  border: 2px solid crimson;
-  border-radius: 5px;
-  padding: 2px 2px 2px 2px;
 
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
-.project-btn :hover{
-background-color: white;
-color: crimson;
+.project-btn a{
+  color: white;
 }
 
 /* skills section styling */
